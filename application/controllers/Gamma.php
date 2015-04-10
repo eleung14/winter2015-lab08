@@ -10,7 +10,8 @@
 class Gamma extends Application {
 
     function __construct() {
-        parent::__construct();
+           parent::__construct();
+            $this->restrict(ROLE_ADMIN);
     }
 
     //-------------------------------------------------------------
